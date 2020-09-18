@@ -29,7 +29,7 @@ body[data-strawberry-bite] h3 {
     font-size: 14px;
 }
 
-body[data-strawberry-bite] a {
+body[data-strawberry-bite] > div[data-modal] a {
     outline: none;
 }
 
@@ -46,19 +46,19 @@ body[data-strawberry-bite] button:active {
     opacity: 0.5;
 }
 
-body[data-strawberry-bite] a:link {
+body[data-strawberry-bite] > div[data-modal] a:link {
     color: #d96464;
 }
 
-body[data-strawberry-bite] a:visited {
+body[data-strawberry-bite] > div[data-modal] a:visited {
     color: #d96464;
 }
 
-body[data-strawberry-bite] a:hover {
+body[data-strawberry-bite] > div[data-modal] a:hover {
     color: #d96464;
 }
 
-body[data-strawberry-bite] a:active {
+body[data-strawberry-bite] > div[data-modal] a:active {
     color: #d96464;
 }
             
